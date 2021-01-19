@@ -23,7 +23,7 @@ namespace EazyNumbers2
                 Conv2(d); // Проверка d==0
             }
         }
-        public int Conv1(int n, int i, int d)//первая проерка на блок схеме
+        public static int Conv1(int n, int i, int d)//первая проерка на блок схеме
         {
             if (n%i==0)
             {
@@ -37,7 +37,7 @@ namespace EazyNumbers2
                 Conv1(n, i, d);
             }
         }
-        public int Conv2 (int d) //вторая проекра на блок схеме
+        public static int Conv2 (int d) //вторая проекра на блок схеме
         {
             if (d == 0)
             {
